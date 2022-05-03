@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Android Test Zemoga</string>
+    <string name="msg_work_save_database">Saving to database.</string>
+    <string name="lbl_download_users">Download Users</string>
+    <string name="lbl_refresh">Refresh</string>
+    <string name="lbl_like">Like</string>
+    <string name="lbl_icon_person">Icon person</string>
+    <string name="lbl_next">Next</string>
+    <string name="lbl_delete_all">Delete all</string>
+    <string name="lbl_delete_selected">Delete selected</string>
+    <string name="lbl_posts">Posts</string>
+    <string name="lbl_detail">Detail</string>
+    <string name="lbl_pages_posts">Pages Posts</string>
+    <string name="lbl_options_tabs">Options Tabs</string>
+    <string name="lbl_post_list_page">Post List</string>
+    <string name="lbl_download_posts">Download post</string>
+    <string name="lbl_download_failed">Download failed</string>
+    <string name="lbl_download_comment">Download comments</string>
+    <string name="lbl_description">Description</string>
+    <string name="lbl_user">User</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_phone">Phone</string>
+    <string name="lbl_website">Website</string>
+    <string name="lbl_comments">COMMENTS</string>
+    <string name="lbl_delete_records">Delete records before of download.</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/posts_dest">
+
+    <fragment
+        android:id="@+id/posts_dest"
+        android:name="com.globalhiddenodds.androidtestzemoga.ui.fragments.PostsFragment"
+        android:label="@string/lbl_posts"
+        tools:layout="@layout/fragment_posts">
+
+        <action
+            android:id="@+id/next_action_detail"
+            app:destination="@id/detail_dest" />
+    </fragment>
+    <fragment
+        android:id="@+id/detail_dest"
+        android:name="com.globalhiddenodds.androidtestzemoga.ui.fragments.DetailFragment"
+        android:label="@string/lbl_detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="userId"
+            app:argType="integer"
+            android:defaultValue="0"/>
+    </fragment>
+    <fragment
+        android:id="@+id/postPage_dest"
+        android:name="com.globalhiddenodds.androidtestzemoga.ui.fragments.PostPageFragment"
+        android:label="@string/lbl_post_list_page"
+        tools:layout="@layout/fragment_page_post">
+    </fragment>
+</navigation>

@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="fragment_horizontal_margin">64dp</dimen>
+    <dimen name="fragment_vertical_margin">128dp</dimen>
+</resources>
